@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <style>
+        header{
+            background: url("img/man.jpg");
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+
+        .section{
+            padding: 4vw 0 ;
+        }
+
+        .tabs .indicator{
+            background-color: #0D47A1;
+        }
+
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+            background-color: transparent;
+        }
+
+        @media (max-width: 700px) {
+            header{
+                min-height: 500px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!-- navbar -->
+    <header class="main-header">
+        <!-- new -->
+
+<div class="navbar-fixed ">
+<nav class="transparent">
+
+
+
+        <!-- new -->
+
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Photo Ninja</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile">
+            <i class="material-icons hide-on-large-only">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#photo's">Photo</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="This is FB">
+                    <i class="fab fa-facebook"></i>
+                </a></li>
+                <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="This is twitter">
+                    <i class="fab fa-twitter"></i>
+                </a></li>
+            </ul>
+            <ul class="sidenav grey lighten-1" id="mobile">
+                <li><a href="#">Photo</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        </div>
+
+</nav>
+
+
+</div>
+</header>
+<!-- photo / grid -->
+<section class="container section scrollspy" id="photo's">
+<div class="row">
+    <div class="col s12 l4">
+        <img src="img/city.jpg" alt="" class="responsive-img">
+    </div>
+    <div class="col s12 l6 offset-l1" >
+        <h2 class="indigo-text text-darken-4">City</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            . Ab harum
+            illum ipsum officia optio qui ratione reprehenderit sed unde!</p>
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col s12 l4 push-l7">
+            <img src="img/portrait.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col s12 l6 pull-l3">
+            <h2 class="indigo-text text-darken-4">Portrait</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                . Ab harum
+                illum ipsum officia optio qui ratione reprehenderit sed unde!</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 l4">
+            <img src="img/nature.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col s12 l6 offset-l1">
+            <h2 class="indigo-text text-darken-4">Nature</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                . Ab harum
+                illum ipsum officia optio qui ratione reprehenderit sed unde!</p>
+        </div>
+    </div>
+</section>
+<!-- parallax -->
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+</div>
+
+
+<!-- services / tabs -->
+<section class="container section scrollspy" id="services">
+    <div class="row">
+        <div class="col s12 l4">
+            <h2 class="indigo-text text-darken-4">What I Do</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                . Cum ea molestias nobis nostrum
+                perferendis recusandae sit voluptatibus? Possimus, qui
+                vitae.</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6" >
+                    <a href="#photo" class="indigo-text text-darken-4">Photography</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#edit" class="indigo-text text-darken-4">Editing</a></li>
+            </ul>
+
+            <div class="col s12" id="photo">
+                <p class="flow-text indigo-text">PHOTOGRAPHY</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Accusantium corporis distinctio ea
+                    eum exercitationem illum iste pariatur qui saepe t
+                    enetur?</p>
+            </div>
+
+            <div class="col s12" id="edit">
+                <p class="flow-text indigo-text">EDITING</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Iusto natus officiis sint voluptatem voluptat
+                    ibus!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- parallax -->
+
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="img/street.jpg" alt="" class="responsive-img">
+    </div>
+</div>
+<div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam at blanditiis itaque qui quibusdam quos. Ab
+        consectetur eaque fugiat harum in
+        iure minima nostrum, odio porro quia tempora undeLorem
+        ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam at blanditiis itaque qui quibusdam quos. Ab
+        consectetur eaque fugiat harum in
+        iure minima nostrum, odio porro quia tempora unde</p>
+</div>
+<!-- contact form -->
+
+<section class="section container scrollspy" id="contact">
+    <div class="row">
+        <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4">Get in Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                . Aperiam assumenda enim eos ex exercitationem facilis
+                ipsum itaque, maiores quo sapiente, sint ullam, voluptatibus voluptatum
+                . Accusantium aliquid consectetur maiores minima rem!</p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+            <form action="" >
+                <div class="input-field">
+                    <i class="material-icons prefix"> email</i>
+                    <input type="email" id="email">
+                    <lable for="email">Your Email</lable>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <lable for="message">Your Message</lable>
+                </div>
+<div class="input-field">
+    <input type="text" id="date" class="datepicker">
+    <lable for="date">Choose a date</lable>
+</div>
+                <div class="input-field">
+                    <p>Services</p>
+                    <p>
+                        <lable>
+                            <input type="checkbox">
+                            <span>Photography</span>
+                        </lable>
+                    </p>
+
+                    <p>
+                        <lable>
+                            <input type="checkbox">
+                            <span>Editing</span>
+                        </lable>
+                    </p>
+                </div>
+
+                <div class="input-field center">
+                    <button class="btn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="page-footer grey darken-3">
+<div class="container">
+    <div class="row">
+        <div class="col s12 l6">
+            <h5>About Me</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. A adipisci aperiam architecto at consequuntu
+                r deserunt error ipsa iure nihil nisi non, officiis omnis quam
+                , quidem quisquam ratione repellat repellendus sequi?</p>
+        </div>
+        <div class="col s12 l4 offset-l2" >
+            <h5>Connect</h5>
+            <ul>
+                <li><a href="#" class="grey-text text-lighten-3">FaceBook</a></li>
+                <li><a href="#" class="grey-text text-lighten-3">Twitter </a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="footer-copyright grey darken-4">
+
+        <div class="container center-align">&copy; Dulshan Samarakoon</div>
+
+            <div class="container center-align">Fifth Completed Web Site </div>
+    </div>
+
+</footer>
+<!-- Compiled and minified JavaScript -->
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src=""></script>
+<script>
+    $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".materialboxed").materialbox();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
+        $(".datepicker").datepicker({
+            disableWeekends:true
+        });
+        $(".tooltipped").tooltip();
+        $(".scrollspy").scrollSpy();
+
+        // new.......
+
+        var options=[
+            {
+                selector: '.main-text', offset: 0, callback: function (e1) {
+                    Materialize.fadeInImage($(e1));
+                }
+
+            },
+            {
+                selector: '.navbar-fixed', offset: 1500, callback: function () {
+                   Materialize.toast('hello',3000);
+                    $('nav').removeClass('transparent');
+                    $('nav').addClass('blue-grey darken-3');
+                }
+            }
+        ];
+
+        Materialize.scrollFire(options);
+
+    });
+</script>
+</body>
+</html>
